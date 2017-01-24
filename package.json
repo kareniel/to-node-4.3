@@ -1,0 +1,21 @@
+{
+  "name": "to-node-4.3",
+  "version": "1.0.0",
+  "description": "convert a src folder to node 4.3",
+  "main": "index.js",
+  "dependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-core": "^6.22.1",
+    "babel-preset-latest": "^6.22.0",
+    "colors": "^1.1.2",
+    "npm-run": "^4.1.0"
+  },
+  "devDependencies": {
+    "tape": "^4.6.3"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "author": "kareniel",
+  "license": "MIT"
+}
